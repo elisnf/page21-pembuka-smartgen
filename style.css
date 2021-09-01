@@ -17,7 +17,8 @@ height: 66px;
 left: calc(50% - 231px/2 - 0.5px);
 top: 36px;
 
-font-family: Lobster Two;
+font-family: smartgen;
+src: url(LobsterTwo-Bold);
 font-style: normal;
 font-weight: bold;
 font-size: 36px;
@@ -70,13 +71,15 @@ border-radius: 48px;
     width: 280px;
     height: 36.49px;
     left: 44px;
-    top: 456px;
+    top: 465px;
     
     border: 1px solid #000000;
     box-sizing: border-box;
     border-radius: 48px;
     font-size: 12px;
     font-family: lemonada;
+    align-items: center;
+    padding: 12px;
 }
 
 .form-label-dua {
@@ -114,7 +117,7 @@ line-height: 150%;
 border-radius: 12px;
 display: flex;
 align-items: center;
-text-align: center;
+justify-content: center;
 background-color: #CAE8D5;
 color: #000000;
 
@@ -142,7 +145,7 @@ line-height: 150%;
 border-radius: 12px;
 display: flex;
 align-items: center;
-text-align: center;
+justify-content: center;
 background-color: #CAE8D5;
 color: #000000;
 
@@ -191,4 +194,12 @@ height: 162px;
 left: 31px;
 top: 107px;
 
+}
+
+.arrow {
+    position: absolute;
+width: 35px;
+height: 35px;
+left: 50px;
+top: 49px;
 }
