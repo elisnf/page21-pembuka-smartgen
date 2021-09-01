@@ -64,6 +64,8 @@ font-family: lemonada;
 border: 1px solid #000000;
 box-sizing: border-box;
 border-radius: 48px;
+align-items: center;
+    padding: 12px;
 }
 
 .text-field-umur {
